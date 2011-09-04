@@ -1,0 +1,4 @@
+Various Buildroot + uClibc + Busybox configs I use in my projects
+
+Feel free to inspire yourself from those, in general optimized for size and
+doing only the job intended
