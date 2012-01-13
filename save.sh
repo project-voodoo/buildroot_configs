@@ -4,6 +4,8 @@
 copy () {
 	echo -e "\nSaving $1\n"
 
+	mkdir -p configs/$1
+
 	cp -v ./build/$1/buildroot-*/output/build/busybox-1.18.5/.config \
 		configs/$1/busybox.config
 
@@ -16,4 +18,4 @@ copy () {
 
 copy report-tool
 copy ota-root-keeper
-
+copy voodoo-louder
